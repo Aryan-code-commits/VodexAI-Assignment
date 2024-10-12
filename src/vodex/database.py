@@ -1,6 +1,10 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 from pymongo.errors import ConnectionFailure
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Use the local MongoDB connection string
 MONGO_DETAILS = os.getenv("MONGO_DETAILS")

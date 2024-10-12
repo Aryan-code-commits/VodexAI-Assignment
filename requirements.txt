@@ -4,4 +4,5 @@ pydantic
 motor
 uvicorn
 pytz
+python-dotenv
 -e .

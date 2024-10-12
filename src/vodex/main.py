@@ -16,5 +16,10 @@ app.include_router(clock_in.router)
 async def root():
     return {"message": "Welcome to the FastAPI CRUD Application"}
 
+@app.get("/health")
+async def health_check():
+    return {"status": "Healthy"}
+
 if __name__ == "__main__":
     uvicorn.run("vodex.main:app", host="127.0.0.1", port=8000, reload=True)
+
