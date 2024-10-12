@@ -1,0 +1,7 @@
+setuptools
+fastapi
+pydantic
+motor
+uvicorn
+pytz
+-e .
