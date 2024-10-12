@@ -59,4 +59,4 @@ This project is a FastAPI-based CRUD application using MongoDB for database oper
 - Example usage of MongoDB aggregation pipelines and query filters.
 
 ## Deployment
-The app is deployed on [Your Hosting Service]. You can access the live Swagger documentation [here](#).
+The app is deployed on Koyeb. You can access the live Swagger documentation [here](#).
