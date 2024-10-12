@@ -1,1 +1,1 @@
-web: run-vodex=vodex.run_vodex:main --host 0.0.0.0 --port 8080
+web: uvicorn src.vodex.main:app --host 0.0.0.0 --port 8080
